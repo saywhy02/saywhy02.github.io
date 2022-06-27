@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人简历</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>个人简历</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>基本信息</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>姓名：<?php echo $user_info['name']; ?></p>
+          <p>性别：<?php echo $user?></p>
+          <p>年龄：<?php echo $user_info['age']; ?></p>
+          <p>学历：<?php echo $user_info['education']; ?></p>
+          <p>毕业学校：<?php echo $user_info['school']; ?></p>
+          <p>专业：<?php echo $user_info['major']; ?></p>
+          <p>求职状态：<?php echo $user_info['job_status']; ?></p>
+          <p>求职意向：<?php echo $user_info['job_intention']; ?></p>
+          <p>求职城市：<?php echo $user_info['job_city']; ?></p>
+          <p>求职区域：<?php echo $user_info['job_area']; ?></p>
+          <p>求职职位：<?php echo $user_info['job_position']; ?></p>
+          <p>求职薪资：<?php echo $user_info['job_salary']; ?></p>
+          <p>求职经验：<?php echo $user_info['job_experience']; ?></p>
+          <p>求职福利：<?php echo $user_info['job_welfare']; ?></p>
+        </div>
+      </div>
+  </body>
+</html>
